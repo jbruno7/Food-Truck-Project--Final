@@ -1,0 +1,165 @@
+/*cream: #f4ece9*/
+/*brown: #583f26*/
+/*peach: #f0694e*/
+/*red: #f44246*/
+/*font-family: 'Slabo 27px', serif;*/
+/*font-family: 'Fjalla One', sans-serif;*/
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
+/*style for index page*/
+
+body{width:100%;font-size:100%;background-color:#f4ece9;
+}
+img{max-width: 100%;}
+body.index{
+  background-image: url(images/BlackEyedPeas.JPG);
+     
+  background-size:cover;
+    -ms-webkits-background:cover;
+    -moz-webkits-background:cover;
+  background-repeat: no-repeat;
+  margin:auto;
+  }
+body.our-story{
+  background-image: url(images/Dried_red_lentil.JPG);
+    
+     
+  background-size:cover;
+    -ms-webkits-background:cover;
+    -moz-webkits-background:cover;
+  background-repeat: no-repeat;
+  margin:auto;
+  }
+body.menu{
+  background-image: url(images/Red_Beans_and_Rice.jpg);
+     
+  background-size:cover;
+    -ms-webkits-background:cover;
+    -moz-webkits-background:cover;
+  background-repeat: no-repeat;
+  margin:auto;
+  }
+body.events{
+  background-image: url(images/black_beans.jpg);
+     
+  background-size:cover;
+    -ms-webkits-background:cover;
+    -moz-webkits-background:cover;
+  background-repeat: no-repeat;
+  margin:auto;
+  }
+/*flex box/ navigation*/
+.wrapper {width:80%; margin:auto;}
+ul.flex-container {
+    
+    height:150px;
+    list-style:none;
+    
+    -webkit-display:flex;
+    -ms-display:flex;
+    display: flex;
+    
+    -webkit-flex-direction:row;
+    -ms-flex-direction:row;
+    flex-direction: row;
+    
+    -webkit-justify-content:center;
+    -ms-justify-content:center;
+    justify-content:center;
+    
+    -webkit-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+}
+
+li.items{font-size:1em;
+    
+    letter-spacing:.2em;
+    padding-left:35px;
+    padding-right:35px;
+    align-self:center;
+    font-family: 'Fjalla One', sans-serif
+    
+}
+
+/*links*/
+a{text-decoration:none;
+    color:#f0694e;
+    padding:5px;}
+
+a.story{text-decoration:none;
+    color:#f4ece9;
+    padding:5px;
+    
+    
+}
+a:hover{color:#f4ece9;
+background-color:#f0694e}
+
+
+/*h1 h2 p*/
+#content{width:75%;
+margin:auto;
+color:#f4ece9;
+font-size:3em;}
+
+#content_ourstory{width:75%;
+margin:auto;
+color:#f4ece9;
+font-size:3.5em;}
+
+h1{font-family:'Fjalla One', sans-serif;
+    letter-spacing:.2em;
+    color:#f0694e;
+    width:70%;
+    text-align:left;
+    padding-bottom:10%;
+}
+
+h1.bean{font-family:'Fjalla One', sans-serif;
+    font-size:1em;
+    letter-spacing:.2em;
+    color:#f0694e;
+    width:30%;
+    text-align:right;
+    padding-bottom:10%;
+    float:left;
+}
+h1.bean_story{font-family:'Fjalla One', sans-serif;
+    font-size:1em;
+    letter-spacing:.2em;
+    color:#f4ece9;
+    width:30%;
+    text-align:right;
+    padding-bottom:10%;
+    float:left;
+}
+
+#pink-box{width:38%;font-family: 'Slabo 27px', serif;background-color:rgba(240, 105, 78, 0.49); margin-bottom:10%;margin-left:auto; margin-right:auto;}
+
+#pink-box_story{ margin-left: 20px;padding:3%;float:right;width:60%;font-family: 'Slabo 27px', serif;background-color:rgba(240, 105, 78, 0.49); margin-left:auto; margin-right:auto;margin-bottom:10%}
+#pink-box_menu{margin-left: 20px;padding:3%;float:right;width:60%;font-family: 'Slabo 27px', serif;background-color:rgba(240, 105, 78, 0.49); margin-left:auto; margin-right:auto;margin-bottom:10%}
+#pink-box_events{margin-left: 20px;padding:3%;float:right;width:60%;font-family: 'Slabo 27px', serif;background-color:rgba(240, 105, 78, 0.49); margin-left:auto; margin-right:auto;margin-bottom:10%}
+h2{font-size:.6em; text-align:center;}
+h2.menu{font-size:.8em; text-align:right;}
+h2.our-story{font-size:.8em; text-align:right;font-family: 'Slabo 27px', serif;}
+h2.events{font-size:.9em; text-align:right;font-family: 'Slabo 27px', serif;}
+p{font-size:.35em; padding:5px;line-height:1.5em;}
+p span{font-size:1.5em;}
+h3{font-size:.5em; text-decoration:underline;}
+ul.menu{font-size:.35em;}
+h3.events{font-size:.4em;}
+ul.events{font-size:.35em;}
+
+
+
+   
+ 
+
+
+
+
+
+
+
